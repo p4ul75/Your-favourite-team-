@@ -4,5 +4,7 @@
     <string name="app_name">Follow Your Team</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_liverpool">LiverpoolActivity</string>
+    <string name="title_activity_arsenal">ArsenalActivity</string>
 
 </resources>
