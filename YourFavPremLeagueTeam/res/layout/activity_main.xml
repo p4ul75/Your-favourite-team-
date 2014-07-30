@@ -76,5 +76,6 @@
         android:text="@string/chelsea"
         android:textColor="#0e1e7d"
         android:textSize="20sp" />
+    
 </RelativeLayout>
 </ScrollView>

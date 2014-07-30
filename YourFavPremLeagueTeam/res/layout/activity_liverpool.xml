@@ -39,8 +39,7 @@
         android:id="@+id/buttonToast1"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_alignBottom="@+id/textView1"
-        android:layout_alignRight="@+id/imageView1"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="22dp"
         android:background="@drawable/liverbird"
         android:onClick="lfcWebOnClick" />
@@ -51,7 +50,7 @@
         android:layout_marginTop="120dp"
         android:background="@drawable/round_buttons"
         android:textStyle="bold"
-        android:text="@string/media_links"
+        android:text="@string/media_links_lfc"
         android:textColor="#FFFFFF"
         android:onClick="mediaLinksOnClick"/>
     

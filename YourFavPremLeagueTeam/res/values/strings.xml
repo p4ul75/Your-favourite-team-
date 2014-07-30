@@ -14,7 +14,8 @@
     <string name="lfc_honours">LFC Honours</string>
     <string name="title_activity_lfc_honours">LFC Honours</string>
     <string name="league_champ">League Champions 18 Times</string>
-    <string name="media_links">LFC Media Watch</string>
+    <string name="media_links_lfc">LFC Media Watch</string>
+    <string name="media_links_cfc">CFC Media Watch</string>
     <string name="title_activity_media_links">MediaLinksActivity</string>
     <string name="skysports">Sky Sports + HD 1,2,3,</string>
     <string name="lfc_live_games">LFC Live Games</string>

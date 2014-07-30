@@ -20,7 +20,7 @@ public class LiverpoolActivity extends Activity {
 		Toast.makeText(getApplicationContext(), 
                 "Connecting to Liverpool Fc web page", Toast.LENGTH_SHORT).show();
     	Intent browserIntent = 
-                 new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.liverpoolfc.com"));
+                 new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.liverpoolfc.com/mobile"));
 	    startActivity(browserIntent); 
 	}
 	

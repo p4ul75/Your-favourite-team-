@@ -29,21 +29,24 @@ public final class R {
         public static final int ic_launcher=0x7f020005;
         public static final int liverbird=0x7f020006;
         public static final int liverpool_fc=0x7f020007;
-        public static final int premier_league_icon=0x7f020008;
-        public static final int round_buttons=0x7f020009;
-        public static final int stevie_g=0x7f02000a;
+        public static final int one_star=0x7f020008;
+        public static final int premier_league_icon=0x7f020009;
+        public static final int round_buttons=0x7f02000a;
+        public static final int round_buttons_cfc=0x7f02000b;
+        public static final int stevie_g=0x7f02000c;
     }
     public static final class id {
-        public static final int action_settings=0x7f090009;
-        public static final int buttonToast1=0x7f090006;
+        public static final int action_settings=0x7f09000a;
+        public static final int buttonToast1=0x7f090008;
         public static final int buttonToast2=0x7f090000;
-        public static final int buttonToast3=0x7f090008;
-        public static final int imageView1=0x7f090004;
-        public static final int textView1=0x7f090005;
-        public static final int textView2=0x7f090007;
-        public static final int textView3=0x7f090003;
-        public static final int textView_honours=0x7f090001;
-        public static final int textView_lfcfixtures=0x7f090002;
+        public static final int buttonToast3=0x7f090003;
+        public static final int imageView1=0x7f090006;
+        public static final int imageView3=0x7f090001;
+        public static final int textView1=0x7f090007;
+        public static final int textView2=0x7f090009;
+        public static final int textView3=0x7f090002;
+        public static final int textView_honours=0x7f090004;
+        public static final int textView_lfcfixtures=0x7f090005;
     }
     public static final class layout {
         public static final int activity_arsenal=0x7f030000;
@@ -78,18 +81,19 @@ public final class R {
         public static final int league_champ=0x7f06000c;
         public static final int lfc=0x7f060007;
         public static final int lfc_honours=0x7f06000a;
-        public static final int lfc_live_games=0x7f060010;
+        public static final int lfc_live_games=0x7f060011;
         public static final int lfc_player_stats=0x7f060005;
-        public static final int media_links=0x7f06000d;
-        public static final int skysports=0x7f06000f;
-        public static final int stevie_g=0x7f060012;
+        public static final int media_links_cfc=0x7f06000e;
+        public static final int media_links_lfc=0x7f06000d;
+        public static final int skysports=0x7f060010;
+        public static final int stevie_g=0x7f060013;
         public static final int title_activity_arsenal=0x7f060004;
-        public static final int title_activity_chelsea=0x7f060013;
+        public static final int title_activity_chelsea=0x7f060014;
         public static final int title_activity_lfc_honours=0x7f06000b;
-        public static final int title_activity_lfc_live_games=0x7f060011;
+        public static final int title_activity_lfc_live_games=0x7f060012;
         public static final int title_activity_lfc_player_stats=0x7f060006;
         public static final int title_activity_liverpool=0x7f060003;
-        public static final int title_activity_media_links=0x7f06000e;
+        public static final int title_activity_media_links=0x7f06000f;
     }
     public static final class style {
         /** 
