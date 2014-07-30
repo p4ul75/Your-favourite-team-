@@ -1,16 +1,90 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF">
+
+<RelativeLayout 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".LiverpoolActivity" >
+ "
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/five_stars" />
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_centerHorizontal="true"
+        android:layout_below="@drawable/liverbird"
+        android:layout_marginTop="70dp"
+        android:textStyle="bold"
+        android:text="@string/lfc"
+        android:textColor="#d3171e"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonToast1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/liverbird"
+        android:onClick="lfcWebOnClick" />
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/round_buttons"
+        android:textStyle="bold"
+        android:text="@string/media_links"
+        android:textColor="#FFFFFF"
+        android:onClick="mediaLinksOnClick"/>
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/round_buttons"
+        android:textStyle="bold"
+        android:text="@string/lfc_player_stats"
+        android:textColor="#FFFFFF"
+        android:onClick="lfcPlayerOnClick"/>
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/round_buttons"
+        android:textStyle="bold"
+        android:text="@string/lfc_honours"
+        android:textColor="#FFFFFF"
+        android:onClick="lfcHonoursOnClick"/>
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/round_buttons"
+        android:textStyle="bold"
+        android:text="@string/lfc_live_games"
+        android:textColor="#FFFFFF"
+        android:onClick="lfcgamesOnClick"/>
+    
 
 </RelativeLayout>
+</ScrollView>

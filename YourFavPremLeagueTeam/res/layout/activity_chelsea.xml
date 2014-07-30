@@ -6,14 +6,11 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".ArsenalActivity" >
+    tools:context=".ChelseaActivity" >
 
-    <Button
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="80dp"
-        android:id="@+id/buttonToast2"
-        android:background="@drawable/arsenal_fc"
-        android:onClick="afcWebOnClick"/> 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
 
 </RelativeLayout>

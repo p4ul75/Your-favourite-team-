@@ -4,7 +4,22 @@
     <string name="app_name">Follow Your Team</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-    <string name="title_activity_liverpool">LiverpoolActivity</string>
-    <string name="title_activity_arsenal">ArsenalActivity</string>
+    <string name="title_activity_liverpool">Liverpool FC</string>
+    <string name="title_activity_arsenal">Arsenal FC</string>
+    <string name="lfc_player_stats">LFC Player Stats</string>
+    <string name="title_activity_lfc_player_stats">LFC Player Stats</string>
+    <string name="lfc">Liverpool FC</string>
+    <string name="arsenal">Arsenal FC</string>
+    <string name="chelsea">Chelsea FC</string>
+    <string name="lfc_honours">LFC Honours</string>
+    <string name="title_activity_lfc_honours">LFC Honours</string>
+    <string name="league_champ">League Champions 18 Times</string>
+    <string name="media_links">LFC Media Watch</string>
+    <string name="title_activity_media_links">MediaLinksActivity</string>
+    <string name="skysports">Sky Sports + HD 1,2,3,</string>
+    <string name="lfc_live_games">LFC Live Games</string>
+    <string name="title_activity_lfc_live_games">Liverpool FC Live Fixtures</string>
+    <string name="stevie_g">Stevie G</string>
+    <string name="title_activity_chelsea">ChelseaActivity</string>
 
 </resources>
